@@ -2,9 +2,9 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "net.moodle.learn"
+        id        = "net.moodle.mmfslvelm"
         versionCode = "3"
-        version   = "1.2">
+        version   = "1.1">
 	<name>MMFSL VeLM Mobile</name>
 	<description>&#xD;
         MMFSL VeLM Mobile App&#xD;
@@ -120,10 +120,10 @@
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
 
     <gap:plugin name="phonegap-plugin-push" source="npm" version="1.7.0">
-        <param name="SENDER_ID" value="cartelsystems-1159" />
+        <param name="SENDER_ID" value="cartelsystems-1160" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="cartelsystems" />
+        <param name="URL_SCHEME" value="velmmobile" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="de.appplant.cordova.plugin.local-notification" source="npm" />
