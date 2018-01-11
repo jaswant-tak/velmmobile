@@ -11,8 +11,9 @@
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://online-assessment.mahindrafs.com",
+    "siteurl": "http://cartelsystems.com/demo/moodlemobile",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "http://online-assessment.mahindrafs.com/privacy.php"
+    "privacypolicy": "http://cartelsystems.com/demo/moodlemobile/privacy.php",
+	"demo_sites": ""
 }
