@@ -10,7 +10,7 @@
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
-    "customurlscheme": "moodlemobile",
+    "customurlscheme": "cartelsystems",
     "siteurl": "http://cartelsystems.com/demos/moodle34",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
