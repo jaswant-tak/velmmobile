@@ -12562,6 +12562,22 @@ mm-format-text .badge, mm-format-text .mma-messages-date span, .mma-messages-dat
 .cke_inner.cke_maximized .cke_toolbox_main {
   margin: 0; }
 
+.item.item-button-right .badge.mm-course-download, .mm-grades-table .item-button-right.itemcenter .badge.mm-course-download, .item.item-button-right .mma-messages-date span.mm-course-download, .mma-messages-date .item.item-button-right span.mm-course-download, .mm-grades-table .item-button-right.itemcenter .mma-messages-date span.mm-course-download, .mma-messages-date .mm-grades-table .item-button-right.itemcenter span.mm-course-download, .item.item-button-right
+.mma-messages-unreadfrom span.mm-course-download,
+.mma-messages-unreadfrom .item.item-button-right span.mm-course-download, .mm-grades-table .item-button-right.itemcenter
+.mma-messages-unreadfrom span.mm-course-download,
+.mma-messages-unreadfrom .mm-grades-table .item-button-right.itemcenter span.mm-course-download, .item.item-button-right .mma-chat-notice span.mm-course-download, .mma-chat-notice .item.item-button-right span.mm-course-download, .mm-grades-table .item-button-right.itemcenter .mma-chat-notice span.mm-course-download, .mma-chat-notice .mm-grades-table .item-button-right.itemcenter span.mm-course-download {
+  right: 44px; }
+
+.mm-course-module-handler mm-format-text + mm-format-text {
+  margin-top: 16px; }
+
+mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grades-table .itemcenter, .mm-grades-table mm-course-mod-description .card .itemcenter {
+  padding: 8px; }
+
+.padding mm-course-mod-description .card, .item .item-heading.padding mm-course-mod-description .card, .mm-grades-table .itemcenter .item-heading.padding mm-course-mod-description .card {
+  margin-top: 0; }
+
 .item-course > .icon, .item-course > ion-spinner {
   height: 40px;
   width: 40px;
@@ -12886,22 +12902,6 @@ mm-course-list-item div.item-icon-left.earlysubmission {
 .mm-course-enrollment-img {
   max-width: 20px;
   max-height: 34px; }
-
-.item.item-button-right .badge.mm-course-download, .mm-grades-table .item-button-right.itemcenter .badge.mm-course-download, .item.item-button-right .mma-messages-date span.mm-course-download, .mma-messages-date .item.item-button-right span.mm-course-download, .mm-grades-table .item-button-right.itemcenter .mma-messages-date span.mm-course-download, .mma-messages-date .mm-grades-table .item-button-right.itemcenter span.mm-course-download, .item.item-button-right
-.mma-messages-unreadfrom span.mm-course-download,
-.mma-messages-unreadfrom .item.item-button-right span.mm-course-download, .mm-grades-table .item-button-right.itemcenter
-.mma-messages-unreadfrom span.mm-course-download,
-.mma-messages-unreadfrom .mm-grades-table .item-button-right.itemcenter span.mm-course-download, .item.item-button-right .mma-chat-notice span.mm-course-download, .mma-chat-notice .item.item-button-right span.mm-course-download, .mm-grades-table .item-button-right.itemcenter .mma-chat-notice span.mm-course-download, .mma-chat-notice .mm-grades-table .item-button-right.itemcenter span.mm-course-download {
-  right: 44px; }
-
-.mm-course-module-handler mm-format-text + mm-format-text {
-  margin-top: 16px; }
-
-mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grades-table .itemcenter, .mm-grades-table mm-course-mod-description .card .itemcenter {
-  padding: 8px; }
-
-.padding mm-course-mod-description .card, .item .item-heading.padding mm-course-mod-description .card, .mm-grades-table .itemcenter .item-heading.padding mm-course-mod-description .card {
-  margin-top: 0; }
 
 .mm-capture-media-modal {
   background-color: #eeeeee; }
@@ -13434,6 +13434,154 @@ ion-side-menu li.item.item-divider, ion-side-menu .mm-grades-table li.item-divid
   .mm-site_myoverview mm-course-list-progress .card .list.block:last-child .item, .mm-site_myoverview mm-course-list-progress .card .list.block:last-child .mm-grades-table .itemcenter, .mm-grades-table .mm-site_myoverview mm-course-list-progress .card .list.block:last-child .itemcenter {
     border-bottom: 0; }
 
+.qbehaviour_deferredcbm_actual_percentage {
+  font-weight: bold; }
+
+.qbehaviour_deferredcbm_judgementok {
+  font-weight: bold;
+  color: #394e00; }
+
+.qbehaviour_deferredcbm_slightlyunderconfident, .qbehaviour_deferredcbm_slightlyoverconfident {
+  font-weight: bold;
+  color: #a82d3b; }
+
+.qbehaviour_deferredcbm_underconfident, .qbehaviour_deferredcbm_overconfident {
+  font-weight: bold;
+  color: #cb3d4d; }
+
+.mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title, .mm-grades-table .mma-qbehaviour-deferredcbm-certainty-title.itemcenter, .item.mma-qbehaviour-deferredcbm-certainty-title p, .mm-grades-table .mma-qbehaviour-deferredcbm-certainty-title.itemcenter p {
+  font-weight: bold;
+  font-size: 16px; }
+
+.mma-chat-notice {
+  text-align: center;
+  margin-top: 10px; }
+  .mma-chat-notice span {
+    white-space: normal; }
+
+.mma-chat-input-inset {
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0; }
+
+.mma-chat-footer-note {
+  color: #444;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  width: 100%; }
+
+.mma-chat-send-form {
+  width: 100%; }
+
+.mma-chat-reconnect-button, .button.mma-chat-reconnect-button {
+  margin: 0; }
+
+.mma-mod_chat-users-modal .item-complex .item-avatar, .mma-mod_chat-users-modal .item-complex .item-media, .mma-mod_chat-users-modal .item-complex .item-avatar-center, .mma-mod_chat-users-modal .item-complex .item-progress {
+  padding-bottom: 0; }
+  .mma-mod_chat-users-modal .item-complex .item-avatar .tabs, .mma-mod_chat-users-modal .item-complex .item-media .tabs, .mma-mod_chat-users-modal .item-complex .item-avatar-center .tabs, .mma-mod_chat-users-modal .item-complex .item-progress .tabs {
+    border: 0; }
+
+.mma-mod_chat-users-modal .button-bar {
+  padding: 0;
+  border: 0; }
+  .mma-mod_chat-users-modal .button-bar .button {
+    border: 0; }
+
+.mm-site_mod_choice .chart {
+  max-width: 400px;
+  margin: 0 auto; }
+
+@media (min-width: 767px) {
+  .mm-site_mod_choice .col, .mm-site_mod_choice .mm-data-contents td, .mm-data-contents .mm-site_mod_choice td, .mm-site_mod_choice .mm-data-contents th, .mm-data-contents .mm-site_mod_choice th {
+    border-left: 1px solid #dddddd; }
+    .mm-site_mod_choice .col.item, .mm-site_mod_choice .mm-grades-table .col.itemcenter, .mm-grades-table .mm-site_mod_choice .col.itemcenter, .mm-site_mod_choice .mm-grades-table .mm-data-contents td.itemcenter, .mm-grades-table .mm-data-contents .mm-site_mod_choice td.itemcenter, .mm-site_mod_choice .mm-data-contents .mm-grades-table td.itemcenter, .mm-data-contents .mm-grades-table .mm-site_mod_choice td.itemcenter, .mm-site_mod_choice .mm-grades-table .mm-data-contents th.itemcenter, .mm-grades-table .mm-data-contents .mm-site_mod_choice th.itemcenter, .mm-site_mod_choice .mm-data-contents .mm-grades-table th.itemcenter, .mm-data-contents .mm-grades-table .mm-site_mod_choice th.itemcenter, .mm-site_mod_choice .mm-data-contents td.item, .mm-data-contents .mm-site_mod_choice td.item, .mm-site_mod_choice .mm-data-contents th.item, .mm-data-contents .mm-site_mod_choice th.item, .mm-site_mod_choice .col .chart-item, .mm-site_mod_choice .mm-data-contents td .chart-item, .mm-data-contents .mm-site_mod_choice td .chart-item, .mm-site_mod_choice .mm-data-contents th .chart-item, .mm-data-contents .mm-site_mod_choice th .chart-item {
+      margin-top: 0;
+      border-top: 0; }
+    .mm-site_mod_choice .col:first-child, .mm-site_mod_choice .mm-data-contents td:first-child, .mm-data-contents .mm-site_mod_choice td:first-child, .mm-site_mod_choice .mm-data-contents th:first-child, .mm-data-contents .mm-site_mod_choice th:first-child {
+      border-left: 0; } }
+
+.mm-site_mod_feedback .mm-analysis ul {
+  font-size: 14px; }
+
+.mm-site_mod_feedback .mm-analysis .item .chart, .mm-site_mod_feedback .mm-analysis .mm-grades-table .itemcenter .chart, .mm-grades-table .mm-site_mod_feedback .mm-analysis .itemcenter .chart {
+  max-width: 500px;
+  margin: 0 auto; }
+
+.mm-site_mod_feedback-form .item-select select {
+  position: relative;
+  padding: 8px;
+  max-width: 100%;
+  width: 100%;
+  direction: ltr; }
+
+.mm-site_mod_feedback-form input, .mm-site_mod_feedback-form textarea {
+  background: transparent; }
+
+.mma-forum-discussion-link {
+  text-decoration: none; }
+  .mma-forum-discussion-link.mm-split-item-selected,
+  .mma-forum-discussion-link.mm-split-item-selected > .item, .mm-grades-table
+  .mma-forum-discussion-link.mm-split-item-selected > .itemcenter {
+    border-left: 0;
+    padding-left: 0; }
+    .mma-forum-discussion-link.mm-split-item-selected article .item-heading,
+    .mma-forum-discussion-link.mm-split-item-selected > .item article .item-heading, .mm-grades-table
+    .mma-forum-discussion-link.mm-split-item-selected > .itemcenter article .item-heading {
+      border-top: 5px solid #f98012;
+      margin-top: -1px; }
+
+.mma-forum-align-right {
+  justify-content: flex-end; }
+
+.mma-forum-border {
+  border-color: #dddddd;
+  border-width: 1px;
+  border-style: solid; }
+
+.mma-forum-reply-edit {
+  padding: 8px; }
+
+.mm-site_mod_forum .item.item-heading, .mm-site_mod_forum .mm-grades-table .item-heading.itemcenter, .mm-grades-table .mm-site_mod_forum .item-heading.itemcenter, .mm-site_mod_forum-discussion .item.item-heading, .mm-site_mod_forum-discussion .mm-grades-table .item-heading.itemcenter, .mm-grades-table .mm-site_mod_forum-discussion .item-heading.itemcenter {
+  padding-bottom: 2px; }
+  .mm-site_mod_forum .item.item-heading .mm-subject, .mm-site_mod_forum .mm-grades-table .item-heading.itemcenter .mm-subject, .mm-grades-table .mm-site_mod_forum .item-heading.itemcenter .mm-subject, .mm-site_mod_forum-discussion .item.item-heading .mm-subject, .mm-site_mod_forum-discussion .mm-grades-table .item-heading.itemcenter .mm-subject, .mm-grades-table .mm-site_mod_forum-discussion .item-heading.itemcenter .mm-subject {
+    font-size: 90%; }
+  .mm-site_mod_forum .item.item-heading .item-note, .mm-site_mod_forum .mm-grades-table .item-heading.itemcenter .item-note, .mm-grades-table .mm-site_mod_forum .item-heading.itemcenter .item-note, .mm-site_mod_forum-discussion .item.item-heading .item-note, .mm-site_mod_forum-discussion .mm-grades-table .item-heading.itemcenter .item-note, .mm-grades-table .mm-site_mod_forum-discussion .item-heading.itemcenter .item-note {
+    font-size: 80%;
+    margin-left: 5px; }
+
+.mm-site_mod_forum .card.highlight .item.item-heading, .mm-site_mod_forum .card.highlight .mm-grades-table .item-heading.itemcenter, .mm-grades-table .mm-site_mod_forum .card.highlight .item-heading.itemcenter, .mm-site_mod_forum-discussion .card.highlight .item.item-heading, .mm-site_mod_forum-discussion .card.highlight .mm-grades-table .item-heading.itemcenter, .mm-grades-table .mm-site_mod_forum-discussion .card.highlight .item-heading.itemcenter {
+  background-color: #f5f5f5; }
+  .mm-site_mod_forum .card.highlight .item.item-heading h2, .mm-site_mod_forum .card.highlight .mm-grades-table .item-heading.itemcenter h2, .mm-grades-table .mm-site_mod_forum .card.highlight .item-heading.itemcenter h2, .mm-site_mod_forum .card.highlight .item.item-heading .item-heading, .mm-site_mod_forum .card.highlight .mm-grades-table .item-heading.itemcenter .item-heading, .mm-grades-table .mm-site_mod_forum .card.highlight .item-heading.itemcenter .item-heading, .mm-site_mod_forum-discussion .card.highlight .item.item-heading h2, .mm-site_mod_forum-discussion .card.highlight .mm-grades-table .item-heading.itemcenter h2, .mm-grades-table .mm-site_mod_forum-discussion .card.highlight .item-heading.itemcenter h2, .mm-site_mod_forum-discussion .card.highlight .item.item-heading .item-heading, .mm-site_mod_forum-discussion .card.highlight .mm-grades-table .item-heading.itemcenter .item-heading, .mm-grades-table .mm-site_mod_forum-discussion .card.highlight .item-heading.itemcenter .item-heading {
+    font-weight: bold; }
+
+.mm-nest-cards .mm-nested-card {
+  padding: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  margin: 1px 10px 10px;
+  border-radius: 0;
+  background-color: #ffffff; }
+  .mm-nest-cards .mm-nested-card .item, .mm-nest-cards .mm-nested-card .mm-grades-table .itemcenter, .mm-grades-table .mm-nest-cards .mm-nested-card .itemcenter {
+    border-left: 0;
+    border-right: 0; }
+  .mm-nest-cards .mm-nested-card .item-media:first-child {
+    border-top: 0; }
+  .mm-nest-cards .mm-nested-card .item-media:last-child {
+    border-bottom: 0; }
+
+.mm-nest-cards .item-divider {
+  display: none; }
+
+.mm-nest-cards .mm-nested {
+  margin-left: 10px; }
+  .mm-nest-cards .mm-nested > article:nth-child(even) > .mm-nested-card > mma-mod-forum-discussion-post > .item-heading {
+    background: #eeeeee; }
+
+.mm-nest-cards .mma-forum-reply-edit {
+  padding: 0;
+  border: 0; }
+
 .mm-site_mod_assign div.submissioneditable p,
 .mm-site_mod_assign-submission div.submissioneditable p {
   color: #cb3d4d; }
@@ -13631,276 +13779,6 @@ p.mma-mod-assign-warning {
   margin: 0;
   width: auto; }
 
-.mma-chat-notice {
-  text-align: center;
-  margin-top: 10px; }
-  .mma-chat-notice span {
-    white-space: normal; }
-
-.mma-chat-input-inset {
-  padding-top: 0;
-  padding-left: 0;
-  padding-bottom: 0; }
-
-.mma-chat-footer-note {
-  color: #444;
-  font-size: 14px;
-  text-align: center;
-  margin: 0;
-  width: 100%; }
-
-.mma-chat-send-form {
-  width: 100%; }
-
-.mma-chat-reconnect-button, .button.mma-chat-reconnect-button {
-  margin: 0; }
-
-.mma-mod_chat-users-modal .item-complex .item-avatar, .mma-mod_chat-users-modal .item-complex .item-media, .mma-mod_chat-users-modal .item-complex .item-avatar-center, .mma-mod_chat-users-modal .item-complex .item-progress {
-  padding-bottom: 0; }
-  .mma-mod_chat-users-modal .item-complex .item-avatar .tabs, .mma-mod_chat-users-modal .item-complex .item-media .tabs, .mma-mod_chat-users-modal .item-complex .item-avatar-center .tabs, .mma-mod_chat-users-modal .item-complex .item-progress .tabs {
-    border: 0; }
-
-.mma-mod_chat-users-modal .button-bar {
-  padding: 0;
-  border: 0; }
-  .mma-mod_chat-users-modal .button-bar .button {
-    border: 0; }
-
-.mm-site_mod_choice .chart {
-  max-width: 400px;
-  margin: 0 auto; }
-
-@media (min-width: 767px) {
-  .mm-site_mod_choice .col, .mm-site_mod_choice .mm-data-contents td, .mm-data-contents .mm-site_mod_choice td, .mm-site_mod_choice .mm-data-contents th, .mm-data-contents .mm-site_mod_choice th {
-    border-left: 1px solid #dddddd; }
-    .mm-site_mod_choice .col.item, .mm-site_mod_choice .mm-grades-table .col.itemcenter, .mm-grades-table .mm-site_mod_choice .col.itemcenter, .mm-site_mod_choice .mm-grades-table .mm-data-contents td.itemcenter, .mm-grades-table .mm-data-contents .mm-site_mod_choice td.itemcenter, .mm-site_mod_choice .mm-data-contents .mm-grades-table td.itemcenter, .mm-data-contents .mm-grades-table .mm-site_mod_choice td.itemcenter, .mm-site_mod_choice .mm-grades-table .mm-data-contents th.itemcenter, .mm-grades-table .mm-data-contents .mm-site_mod_choice th.itemcenter, .mm-site_mod_choice .mm-data-contents .mm-grades-table th.itemcenter, .mm-data-contents .mm-grades-table .mm-site_mod_choice th.itemcenter, .mm-site_mod_choice .mm-data-contents td.item, .mm-data-contents .mm-site_mod_choice td.item, .mm-site_mod_choice .mm-data-contents th.item, .mm-data-contents .mm-site_mod_choice th.item, .mm-site_mod_choice .col .chart-item, .mm-site_mod_choice .mm-data-contents td .chart-item, .mm-data-contents .mm-site_mod_choice td .chart-item, .mm-site_mod_choice .mm-data-contents th .chart-item, .mm-data-contents .mm-site_mod_choice th .chart-item {
-      margin-top: 0;
-      border-top: 0; }
-    .mm-site_mod_choice .col:first-child, .mm-site_mod_choice .mm-data-contents td:first-child, .mm-data-contents .mm-site_mod_choice td:first-child, .mm-site_mod_choice .mm-data-contents th:first-child, .mm-data-contents .mm-site_mod_choice th:first-child {
-      border-left: 0; } }
-
-.mm-site_mod_data .recordcheckbox {
-  display: none; }
-
-.mm-data-contents {
-  overflow: visible;
-  white-space: normal;
-  word-break: break-word;
-  padding: 16px;
-  background-color: white;
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-  border-style: solid;
-  border-color: #dddddd; }
-  .mm-data-contents table, .mm-data-contents tbody {
-    display: block; }
-  .mm-data-contents tr {
-    padding: 0; }
-
-#mma-mod_data-advanced-search-form table,
-#mma-mod_data-edit-form table {
-  width: 100%; }
-
-#mma-mod_data-advanced-search-form td,
-#mma-mod_data-edit-form td {
-  vertical-align: top; }
-
-#mma-mod_data-advanced-search-form textarea,
-#mma-mod_data-advanced-search-form input[type="text"],
-#mma-mod_data-advanced-search-form input[type="password"],
-#mma-mod_data-advanced-search-form input[type="datetime"],
-#mma-mod_data-advanced-search-form input[type="datetime-local"],
-#mma-mod_data-advanced-search-form input[type="date"],
-#mma-mod_data-advanced-search-form input[type="month"],
-#mma-mod_data-advanced-search-form input[type="time"],
-#mma-mod_data-advanced-search-form input[type="week"],
-#mma-mod_data-advanced-search-form input[type="number"],
-#mma-mod_data-advanced-search-form input[type="email"],
-#mma-mod_data-advanced-search-form input[type="url"],
-#mma-mod_data-advanced-search-form input[type="search"],
-#mma-mod_data-advanced-search-form input[type="tel"],
-#mma-mod_data-advanced-search-form input[type="color"],
-#mma-mod_data-advanced-search-form .item-select,
-#mma-mod_data-advanced-search-form mm-attachments > .item-border,
-#mma-mod_data-edit-form textarea,
-#mma-mod_data-edit-form input[type="text"],
-#mma-mod_data-edit-form input[type="password"],
-#mma-mod_data-edit-form input[type="datetime"],
-#mma-mod_data-edit-form input[type="datetime-local"],
-#mma-mod_data-edit-form input[type="date"],
-#mma-mod_data-edit-form input[type="month"],
-#mma-mod_data-edit-form input[type="time"],
-#mma-mod_data-edit-form input[type="week"],
-#mma-mod_data-edit-form input[type="number"],
-#mma-mod_data-edit-form input[type="email"],
-#mma-mod_data-edit-form input[type="url"],
-#mma-mod_data-edit-form input[type="search"],
-#mma-mod_data-edit-form input[type="tel"],
-#mma-mod_data-edit-form input[type="color"],
-#mma-mod_data-edit-form .item-select,
-#mma-mod_data-edit-form mm-attachments > .item-border {
-  width: 100%;
-  margin: -1px;
-  border: 1px solid #dddddd;
-  padding: 16px 0 16px 16px;
-  height: 56px; }
-
-#mma-mod_data-advanced-search-form input[type="datetime"],
-#mma-mod_data-advanced-search-form input[type="datetime-local"],
-#mma-mod_data-advanced-search-form input[type="date"],
-#mma-mod_data-edit-form input[type="datetime"],
-#mma-mod_data-edit-form input[type="datetime-local"],
-#mma-mod_data-edit-form input[type="date"] {
-  -webkit-appearance: none; }
-
-#mma-mod_data-advanced-search-form mm-attachments .item-media,
-#mma-mod_data-edit-form mm-attachments .item-media {
-  width: 100%;
-  margin: -1px;
-  border: 1px solid #dddddd;
-  height: 56px; }
-
-#mma-mod_data-advanced-search-form mm-multiple-select .item, #mma-mod_data-advanced-search-form mm-multiple-select .mm-grades-table .itemcenter, .mm-grades-table #mma-mod_data-advanced-search-form mm-multiple-select .itemcenter,
-#mma-mod_data-edit-form mm-multiple-select .item,
-#mma-mod_data-edit-form mm-multiple-select .mm-grades-table .itemcenter, .mm-grades-table
-#mma-mod_data-edit-form mm-multiple-select .itemcenter {
-  width: 100%;
-  margin: -1px;
-  border: 1px solid #dddddd;
-  padding: 16px 0 16px 16px; }
-
-#mma-mod_data-advanced-search-form mm-attachments + .item-stacked-label,
-#mma-mod_data-edit-form mm-attachments + .item-stacked-label {
-  border-top: 0px;
-  padding: 0;
-  margin-right: 1px; }
-  #mma-mod_data-advanced-search-form mm-attachments + .item-stacked-label ion-label,
-  #mma-mod_data-edit-form mm-attachments + .item-stacked-label ion-label {
-    margin: 0;
-    padding-left: 16px; }
-  #mma-mod_data-advanced-search-form mm-attachments + .item-stacked-label input,
-  #mma-mod_data-edit-form mm-attachments + .item-stacked-label input {
-    border: 0;
-    margin: 0; }
-
-#mma-mod_data-advanced-search-form mm-attachments .item, #mma-mod_data-advanced-search-form mm-attachments .mm-grades-table .itemcenter, .mm-grades-table #mma-mod_data-advanced-search-form mm-attachments .itemcenter,
-#mma-mod_data-edit-form mm-attachments .item,
-#mma-mod_data-edit-form mm-attachments .mm-grades-table .itemcenter, .mm-grades-table
-#mma-mod_data-edit-form mm-attachments .itemcenter {
-  width: 100%;
-  margin: -1px;
-  border: 1px solid #dddddd;
-  overflow: hidden; }
-
-#mma-mod_data-advanced-search-form .item-checkbox,
-#mma-mod_data-edit-form .item-checkbox {
-  margin-right: 1px; }
-
-#mma-mod_data-advanced-search-form .item-input.item-select,
-#mma-mod_data-edit-form .item-input.item-select {
-  margin-bottom: -6px; }
-  #mma-mod_data-advanced-search-form .item-input.item-select select,
-  #mma-mod_data-edit-form .item-input.item-select select {
-    width: 100%;
-    left: 0;
-    max-width: none; }
-
-#mma-mod_data-advanced-search-form .item-input.mm-latlong,
-#mma-mod_data-edit-form .item-input.mm-latlong {
-  width: 100%;
-  margin: -1px;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
-  #mma-mod_data-advanced-search-form .item-input.mm-latlong input,
-  #mma-mod_data-edit-form .item-input.mm-latlong input {
-    border: 0; }
-
-#mma-mod_data-advanced-search-form .mm-item-has-rich-text-editor,
-#mma-mod_data-edit-form .mm-item-has-rich-text-editor {
-  margin-right: 1px; }
-
-.mm-site_mod_feedback .mm-analysis ul {
-  font-size: 14px; }
-
-.mm-site_mod_feedback .mm-analysis .item .chart, .mm-site_mod_feedback .mm-analysis .mm-grades-table .itemcenter .chart, .mm-grades-table .mm-site_mod_feedback .mm-analysis .itemcenter .chart {
-  max-width: 500px;
-  margin: 0 auto; }
-
-.mm-site_mod_feedback-form .item-select select {
-  position: relative;
-  padding: 8px;
-  max-width: 100%;
-  width: 100%;
-  direction: ltr; }
-
-.mm-site_mod_feedback-form input, .mm-site_mod_feedback-form textarea {
-  background: transparent; }
-
-.mma-forum-discussion-link {
-  text-decoration: none; }
-  .mma-forum-discussion-link.mm-split-item-selected,
-  .mma-forum-discussion-link.mm-split-item-selected > .item, .mm-grades-table
-  .mma-forum-discussion-link.mm-split-item-selected > .itemcenter {
-    border-left: 0;
-    padding-left: 0; }
-    .mma-forum-discussion-link.mm-split-item-selected article .item-heading,
-    .mma-forum-discussion-link.mm-split-item-selected > .item article .item-heading, .mm-grades-table
-    .mma-forum-discussion-link.mm-split-item-selected > .itemcenter article .item-heading {
-      border-top: 5px solid #f98012;
-      margin-top: -1px; }
-
-.mma-forum-align-right {
-  justify-content: flex-end; }
-
-.mma-forum-border {
-  border-color: #dddddd;
-  border-width: 1px;
-  border-style: solid; }
-
-.mma-forum-reply-edit {
-  padding: 8px; }
-
-.mm-site_mod_forum .item.item-heading, .mm-site_mod_forum .mm-grades-table .item-heading.itemcenter, .mm-grades-table .mm-site_mod_forum .item-heading.itemcenter, .mm-site_mod_forum-discussion .item.item-heading, .mm-site_mod_forum-discussion .mm-grades-table .item-heading.itemcenter, .mm-grades-table .mm-site_mod_forum-discussion .item-heading.itemcenter {
-  padding-bottom: 2px; }
-  .mm-site_mod_forum .item.item-heading .mm-subject, .mm-site_mod_forum .mm-grades-table .item-heading.itemcenter .mm-subject, .mm-grades-table .mm-site_mod_forum .item-heading.itemcenter .mm-subject, .mm-site_mod_forum-discussion .item.item-heading .mm-subject, .mm-site_mod_forum-discussion .mm-grades-table .item-heading.itemcenter .mm-subject, .mm-grades-table .mm-site_mod_forum-discussion .item-heading.itemcenter .mm-subject {
-    font-size: 90%; }
-  .mm-site_mod_forum .item.item-heading .item-note, .mm-site_mod_forum .mm-grades-table .item-heading.itemcenter .item-note, .mm-grades-table .mm-site_mod_forum .item-heading.itemcenter .item-note, .mm-site_mod_forum-discussion .item.item-heading .item-note, .mm-site_mod_forum-discussion .mm-grades-table .item-heading.itemcenter .item-note, .mm-grades-table .mm-site_mod_forum-discussion .item-heading.itemcenter .item-note {
-    font-size: 80%;
-    margin-left: 5px; }
-
-.mm-site_mod_forum .card.highlight .item.item-heading, .mm-site_mod_forum .card.highlight .mm-grades-table .item-heading.itemcenter, .mm-grades-table .mm-site_mod_forum .card.highlight .item-heading.itemcenter, .mm-site_mod_forum-discussion .card.highlight .item.item-heading, .mm-site_mod_forum-discussion .card.highlight .mm-grades-table .item-heading.itemcenter, .mm-grades-table .mm-site_mod_forum-discussion .card.highlight .item-heading.itemcenter {
-  background-color: #f5f5f5; }
-  .mm-site_mod_forum .card.highlight .item.item-heading h2, .mm-site_mod_forum .card.highlight .mm-grades-table .item-heading.itemcenter h2, .mm-grades-table .mm-site_mod_forum .card.highlight .item-heading.itemcenter h2, .mm-site_mod_forum .card.highlight .item.item-heading .item-heading, .mm-site_mod_forum .card.highlight .mm-grades-table .item-heading.itemcenter .item-heading, .mm-grades-table .mm-site_mod_forum .card.highlight .item-heading.itemcenter .item-heading, .mm-site_mod_forum-discussion .card.highlight .item.item-heading h2, .mm-site_mod_forum-discussion .card.highlight .mm-grades-table .item-heading.itemcenter h2, .mm-grades-table .mm-site_mod_forum-discussion .card.highlight .item-heading.itemcenter h2, .mm-site_mod_forum-discussion .card.highlight .item.item-heading .item-heading, .mm-site_mod_forum-discussion .card.highlight .mm-grades-table .item-heading.itemcenter .item-heading, .mm-grades-table .mm-site_mod_forum-discussion .card.highlight .item-heading.itemcenter .item-heading {
-    font-weight: bold; }
-
-.mm-nest-cards .mm-nested-card {
-  padding: 0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  margin: 1px 10px 10px;
-  border-radius: 0;
-  background-color: #ffffff; }
-  .mm-nest-cards .mm-nested-card .item, .mm-nest-cards .mm-nested-card .mm-grades-table .itemcenter, .mm-grades-table .mm-nest-cards .mm-nested-card .itemcenter {
-    border-left: 0;
-    border-right: 0; }
-  .mm-nest-cards .mm-nested-card .item-media:first-child {
-    border-top: 0; }
-  .mm-nest-cards .mm-nested-card .item-media:last-child {
-    border-bottom: 0; }
-
-.mm-nest-cards .item-divider {
-  display: none; }
-
-.mm-nest-cards .mm-nested {
-  margin-left: 10px; }
-  .mm-nest-cards .mm-nested > article:nth-child(even) > .mm-nested-card > mma-mod-forum-discussion-post > .item-heading {
-    background: #eeeeee; }
-
-.mm-nest-cards .mma-forum-reply-edit {
-  padding: 0;
-  border: 0; }
-
 .mma-mod-lesson-slideshow {
   max-width: 100%;
   max-height: 100%; }
@@ -14047,6 +13925,70 @@ p.mma-mod-quiz-warning {
 #mma-mod-quiz-toc .item, #mma-mod-quiz-toc .mm-grades-table .itemcenter, .mm-grades-table #mma-mod-quiz-toc .itemcenter {
   border-color: #9e9e9e; }
 
+.mm-site_mod_survey .row, .mm-site_mod_survey .mm-data-contents tr, .mm-data-contents .mm-site_mod_survey tr, .mm-site_mod_survey .input-label {
+  font-size: 14px; }
+
+.mm-site_mod_survey .mma-mod_survey-darkbg {
+  background-color: #f5f5f5; }
+
+.mm-site_mod_survey .mma-mod_survey-padding-top {
+  padding-top: 20px; }
+
+.mm-site_mod_survey textarea.mma-mod_survey-textarea {
+  height: 100px;
+  border: 1px solid #dddddd; }
+
+.mm-site_mod_survey select.mma-mod_survey-select {
+  background-color: transparent;
+  padding-left: 0px;
+  padding-right: 32px;
+  max-width: 100%; }
+  .mm-site_mod_survey select.mma-mod_survey-select .mma-mod_survey-defaultoption {
+    display: none; }
+
+.mm-site_mod_wiki {
+  background-color: white;
+  /* Hide edit section links */ }
+  .mm-site_mod_wiki .wiki-toc {
+    border: 1px solid #9e9e9e;
+    background: #eeeeee;
+    margin: 16px;
+    padding: 8px; }
+  .mm-site_mod_wiki .wiki-toc-title {
+    color: #626262;
+    font-size: 1.1em;
+    font-variant: small-caps;
+    text-align: center; }
+  .mm-site_mod_wiki .wiki-toc-section {
+    padding: 0;
+    margin: 2px 8px; }
+  .mm-site_mod_wiki .wiki-toc-section-2 {
+    padding-left: 12px; }
+  .mm-site_mod_wiki .wiki-toc-section-3 {
+    padding-left: 24px; }
+  .mm-site_mod_wiki .wiki_newentry {
+    color: #cb3d4d;
+    font-style: italic; }
+  .mm-site_mod_wiki .mma-mod_wiki-noedit a.wiki_edit_section {
+    display: none; }
+  .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item-divider {
+    font-weight: bold; }
+  .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item.item-selected, .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .mm-grades-table .item-selected.itemcenter, .mm-grades-table .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item-selected.itemcenter {
+    background-color: #eeeeee; }
+  .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item.item-selected .icon, .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .mm-grades-table .item-selected.itemcenter .icon, .mm-grades-table .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item-selected.itemcenter .icon {
+    font-size: 24px; }
+
+.mm-site_mod_workshop p.mm-overriden-grade,
+.mm-site_mod_workshop-submission p.mm-overriden-grade,
+.mm-site_mod_workshop-assessment p.mm-overriden-grade {
+  color: #5e8100; }
+
+.mm-site_mod_workshop p.mm-has-overriden-grade,
+.mm-site_mod_workshop-submission p.mm-has-overriden-grade,
+.mm-site_mod_workshop-assessment p.mm-has-overriden-grade {
+  color: #cb3d4d;
+  text-decoration: line-through; }
+
 .mma-scorm-level-0 {
   padding-left: 16px; }
 
@@ -14124,88 +14066,239 @@ ion-popover-view {
   padding-top: 10px;
   padding-bottom: 10px; }
 
-.mm-site_mod_survey .row, .mm-site_mod_survey .mm-data-contents tr, .mm-data-contents .mm-site_mod_survey tr, .mm-site_mod_survey .input-label {
-  font-size: 14px; }
+.mm-site_mod_data .recordcheckbox {
+  display: none; }
 
-.mm-site_mod_survey .mma-mod_survey-darkbg {
-  background-color: #f5f5f5; }
-
-.mm-site_mod_survey .mma-mod_survey-padding-top {
-  padding-top: 20px; }
-
-.mm-site_mod_survey textarea.mma-mod_survey-textarea {
-  height: 100px;
-  border: 1px solid #dddddd; }
-
-.mm-site_mod_survey select.mma-mod_survey-select {
-  background-color: transparent;
-  padding-left: 0px;
-  padding-right: 32px;
-  max-width: 100%; }
-  .mm-site_mod_survey select.mma-mod_survey-select .mma-mod_survey-defaultoption {
-    display: none; }
-
-.mm-site_mod_wiki {
+.mm-data-contents {
+  overflow: visible;
+  white-space: normal;
+  word-break: break-word;
+  padding: 16px;
   background-color: white;
-  /* Hide edit section links */ }
-  .mm-site_mod_wiki .wiki-toc {
-    border: 1px solid #9e9e9e;
-    background: #eeeeee;
-    margin: 16px;
-    padding: 8px; }
-  .mm-site_mod_wiki .wiki-toc-title {
-    color: #626262;
-    font-size: 1.1em;
-    font-variant: small-caps;
-    text-align: center; }
-  .mm-site_mod_wiki .wiki-toc-section {
-    padding: 0;
-    margin: 2px 8px; }
-  .mm-site_mod_wiki .wiki-toc-section-2 {
-    padding-left: 12px; }
-  .mm-site_mod_wiki .wiki-toc-section-3 {
-    padding-left: 24px; }
-  .mm-site_mod_wiki .wiki_newentry {
-    color: #cb3d4d;
-    font-style: italic; }
-  .mm-site_mod_wiki .mma-mod_wiki-noedit a.wiki_edit_section {
-    display: none; }
-  .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item-divider {
-    font-weight: bold; }
-  .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item.item-selected, .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .mm-grades-table .item-selected.itemcenter, .mm-grades-table .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item-selected.itemcenter {
-    background-color: #eeeeee; }
-  .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item.item-selected .icon, .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .mm-grades-table .item-selected.itemcenter .icon, .mm-grades-table .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item-selected.itemcenter .icon {
-    font-size: 24px; }
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: #dddddd; }
+  .mm-data-contents table, .mm-data-contents tbody {
+    display: block; }
+  .mm-data-contents tr {
+    padding: 0; }
 
-.mm-site_mod_workshop p.mm-overriden-grade,
-.mm-site_mod_workshop-submission p.mm-overriden-grade,
-.mm-site_mod_workshop-assessment p.mm-overriden-grade {
-  color: #5e8100; }
+#mma-mod_data-advanced-search-form table,
+#mma-mod_data-edit-form table {
+  width: 100%; }
 
-.mm-site_mod_workshop p.mm-has-overriden-grade,
-.mm-site_mod_workshop-submission p.mm-has-overriden-grade,
-.mm-site_mod_workshop-assessment p.mm-has-overriden-grade {
-  color: #cb3d4d;
-  text-decoration: line-through; }
+#mma-mod_data-advanced-search-form td,
+#mma-mod_data-edit-form td {
+  vertical-align: top; }
 
-.qbehaviour_deferredcbm_actual_percentage {
-  font-weight: bold; }
+#mma-mod_data-advanced-search-form textarea,
+#mma-mod_data-advanced-search-form input[type="text"],
+#mma-mod_data-advanced-search-form input[type="password"],
+#mma-mod_data-advanced-search-form input[type="datetime"],
+#mma-mod_data-advanced-search-form input[type="datetime-local"],
+#mma-mod_data-advanced-search-form input[type="date"],
+#mma-mod_data-advanced-search-form input[type="month"],
+#mma-mod_data-advanced-search-form input[type="time"],
+#mma-mod_data-advanced-search-form input[type="week"],
+#mma-mod_data-advanced-search-form input[type="number"],
+#mma-mod_data-advanced-search-form input[type="email"],
+#mma-mod_data-advanced-search-form input[type="url"],
+#mma-mod_data-advanced-search-form input[type="search"],
+#mma-mod_data-advanced-search-form input[type="tel"],
+#mma-mod_data-advanced-search-form input[type="color"],
+#mma-mod_data-advanced-search-form .item-select,
+#mma-mod_data-advanced-search-form mm-attachments > .item-border,
+#mma-mod_data-edit-form textarea,
+#mma-mod_data-edit-form input[type="text"],
+#mma-mod_data-edit-form input[type="password"],
+#mma-mod_data-edit-form input[type="datetime"],
+#mma-mod_data-edit-form input[type="datetime-local"],
+#mma-mod_data-edit-form input[type="date"],
+#mma-mod_data-edit-form input[type="month"],
+#mma-mod_data-edit-form input[type="time"],
+#mma-mod_data-edit-form input[type="week"],
+#mma-mod_data-edit-form input[type="number"],
+#mma-mod_data-edit-form input[type="email"],
+#mma-mod_data-edit-form input[type="url"],
+#mma-mod_data-edit-form input[type="search"],
+#mma-mod_data-edit-form input[type="tel"],
+#mma-mod_data-edit-form input[type="color"],
+#mma-mod_data-edit-form .item-select,
+#mma-mod_data-edit-form mm-attachments > .item-border {
+  width: 100%;
+  margin: -1px;
+  border: 1px solid #dddddd;
+  padding: 16px 0 16px 16px;
+  height: 56px; }
 
-.qbehaviour_deferredcbm_judgementok {
-  font-weight: bold;
-  color: #394e00; }
+#mma-mod_data-advanced-search-form input[type="datetime"],
+#mma-mod_data-advanced-search-form input[type="datetime-local"],
+#mma-mod_data-advanced-search-form input[type="date"],
+#mma-mod_data-edit-form input[type="datetime"],
+#mma-mod_data-edit-form input[type="datetime-local"],
+#mma-mod_data-edit-form input[type="date"] {
+  -webkit-appearance: none; }
 
-.qbehaviour_deferredcbm_slightlyunderconfident, .qbehaviour_deferredcbm_slightlyoverconfident {
-  font-weight: bold;
-  color: #a82d3b; }
+#mma-mod_data-advanced-search-form mm-attachments .item-media,
+#mma-mod_data-edit-form mm-attachments .item-media {
+  width: 100%;
+  margin: -1px;
+  border: 1px solid #dddddd;
+  height: 56px; }
 
-.qbehaviour_deferredcbm_underconfident, .qbehaviour_deferredcbm_overconfident {
-  font-weight: bold;
-  color: #cb3d4d; }
+#mma-mod_data-advanced-search-form mm-multiple-select .item, #mma-mod_data-advanced-search-form mm-multiple-select .mm-grades-table .itemcenter, .mm-grades-table #mma-mod_data-advanced-search-form mm-multiple-select .itemcenter,
+#mma-mod_data-edit-form mm-multiple-select .item,
+#mma-mod_data-edit-form mm-multiple-select .mm-grades-table .itemcenter, .mm-grades-table
+#mma-mod_data-edit-form mm-multiple-select .itemcenter {
+  width: 100%;
+  margin: -1px;
+  border: 1px solid #dddddd;
+  padding: 16px 0 16px 16px; }
 
-.mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title, .mm-grades-table .mma-qbehaviour-deferredcbm-certainty-title.itemcenter, .item.mma-qbehaviour-deferredcbm-certainty-title p, .mm-grades-table .mma-qbehaviour-deferredcbm-certainty-title.itemcenter p {
-  font-weight: bold;
-  font-size: 16px; }
+#mma-mod_data-advanced-search-form mm-attachments + .item-stacked-label,
+#mma-mod_data-edit-form mm-attachments + .item-stacked-label {
+  border-top: 0px;
+  padding: 0;
+  margin-right: 1px; }
+  #mma-mod_data-advanced-search-form mm-attachments + .item-stacked-label ion-label,
+  #mma-mod_data-edit-form mm-attachments + .item-stacked-label ion-label {
+    margin: 0;
+    padding-left: 16px; }
+  #mma-mod_data-advanced-search-form mm-attachments + .item-stacked-label input,
+  #mma-mod_data-edit-form mm-attachments + .item-stacked-label input {
+    border: 0;
+    margin: 0; }
+
+#mma-mod_data-advanced-search-form mm-attachments .item, #mma-mod_data-advanced-search-form mm-attachments .mm-grades-table .itemcenter, .mm-grades-table #mma-mod_data-advanced-search-form mm-attachments .itemcenter,
+#mma-mod_data-edit-form mm-attachments .item,
+#mma-mod_data-edit-form mm-attachments .mm-grades-table .itemcenter, .mm-grades-table
+#mma-mod_data-edit-form mm-attachments .itemcenter {
+  width: 100%;
+  margin: -1px;
+  border: 1px solid #dddddd;
+  overflow: hidden; }
+
+#mma-mod_data-advanced-search-form .item-checkbox,
+#mma-mod_data-edit-form .item-checkbox {
+  margin-right: 1px; }
+
+#mma-mod_data-advanced-search-form .item-input.item-select,
+#mma-mod_data-edit-form .item-input.item-select {
+  margin-bottom: -6px; }
+  #mma-mod_data-advanced-search-form .item-input.item-select select,
+  #mma-mod_data-edit-form .item-input.item-select select {
+    width: 100%;
+    left: 0;
+    max-width: none; }
+
+#mma-mod_data-advanced-search-form .item-input.mm-latlong,
+#mma-mod_data-edit-form .item-input.mm-latlong {
+  width: 100%;
+  margin: -1px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0; }
+  #mma-mod_data-advanced-search-form .item-input.mm-latlong input,
+  #mma-mod_data-edit-form .item-input.mm-latlong input {
+    border: 0; }
+
+#mma-mod_data-advanced-search-form .mm-item-has-rich-text-editor,
+#mma-mod_data-edit-form .mm-item-has-rich-text-editor {
+  margin-right: 1px; }
+
+.mma-qtype-ddmarker-container mm-loading {
+  position: absolute;
+  left: 50%; }
+
+.mma-qtype-ddmarker-container .qtext {
+  margin-bottom: 0.5em;
+  display: block; }
+
+.mma-qtype-ddmarker-container div.droparea img {
+  border: 1px solid #626262;
+  max-width: 100%; }
+
+.mma-qtype-ddmarker-container .draghome img, .mma-qtype-ddmarker-container .draghome span {
+  visibility: hidden; }
+
+.mma-qtype-ddmarker-container .dragitems .dragitem {
+  cursor: pointer;
+  position: absolute;
+  z-index: 2; }
+
+.mma-qtype-ddmarker-container .dropzones {
+  position: absolute; }
+
+.mma-qtype-ddmarker-container .dropzones svg {
+  z-index: 3; }
+
+.mma-qtype-ddmarker-container .dragitem.beingdragged .markertext {
+  z-index: 5;
+  box-shadow: 3px 3px 4px #626262; }
+
+.mma-qtype-ddmarker-container .dragitems .draghome {
+  margin: 10px;
+  display: inline-block; }
+
+.mma-qtype-ddmarker-container .dragitems.readonly .dragitem {
+  cursor: auto; }
+
+.mma-qtype-ddmarker-container div.ddarea {
+  text-align: center; }
+
+.mma-qtype-ddmarker-container div.ddarea .markertexts {
+  min-height: 80px;
+  position: absolute;
+  text-align: left; }
+
+.mma-qtype-ddmarker-container .dropbackground {
+  margin: 0 auto; }
+
+.mma-qtype-ddmarker-container div.dragitems div.draghome, .mma-qtype-ddmarker-container div.dragitems div.dragitem,
+.mma-qtype-ddmarker-container div.draghome, .mma-qtype-ddmarker-container div.drag {
+  font: 13px/1.231 arial,helvetica,clean,sans-serif; }
+
+.mma-qtype-ddmarker-container div.dragitems span.markertext,
+.mma-qtype-ddmarker-container div.markertexts span.markertext {
+  margin: 0 5px;
+  z-index: 2;
+  background-color: #ffffff;
+  border: 2px solid #626262;
+  padding: 5px;
+  display: inline-block;
+  zoom: 1;
+  border-radius: 10px; }
+
+.mma-qtype-ddmarker-container div.markertexts span.markertext {
+  z-index: 3;
+  background-color: #feefd1;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fbad1a;
+  position: absolute; }
+
+.mma-qtype-ddmarker-container span.wrongpart {
+  background-color: #feefd1;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fbad1a;
+  padding: 5px;
+  border-radius: 10px;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+  margin: 5px;
+  display: inline-block; }
+
+.mma-qtype-ddmarker-container div.dragitems img.target {
+  position: absolute;
+  left: -7px;
+  /* This must be half the size of the target image, minus 0.5. */
+  top: -7px;
+  /* In other words, this works for a 15x15 cross-hair. */ }
+
+.mma-qtype-ddmarker-container div.dragitems div.draghome img.target {
+  display: none; }
 
 .mma-qtype-ddimageortext-container mm-loading {
   position: absolute;
@@ -14303,99 +14396,6 @@ ion-popover-view {
   z-index: 3;
   box-shadow: 3px 3px 4px #626262; }
 
-.mma-qtype-ddmarker-container mm-loading {
-  position: absolute;
-  left: 50%; }
-
-.mma-qtype-ddmarker-container .qtext {
-  margin-bottom: 0.5em;
-  display: block; }
-
-.mma-qtype-ddmarker-container div.droparea img {
-  border: 1px solid #626262;
-  max-width: 100%; }
-
-.mma-qtype-ddmarker-container .draghome img, .mma-qtype-ddmarker-container .draghome span {
-  visibility: hidden; }
-
-.mma-qtype-ddmarker-container .dragitems .dragitem {
-  cursor: pointer;
-  position: absolute;
-  z-index: 2; }
-
-.mma-qtype-ddmarker-container .dropzones {
-  position: absolute; }
-
-.mma-qtype-ddmarker-container .dropzones svg {
-  z-index: 3; }
-
-.mma-qtype-ddmarker-container .dragitem.beingdragged .markertext {
-  z-index: 5;
-  box-shadow: 3px 3px 4px #626262; }
-
-.mma-qtype-ddmarker-container .dragitems .draghome {
-  margin: 10px;
-  display: inline-block; }
-
-.mma-qtype-ddmarker-container .dragitems.readonly .dragitem {
-  cursor: auto; }
-
-.mma-qtype-ddmarker-container div.ddarea {
-  text-align: center; }
-
-.mma-qtype-ddmarker-container div.ddarea .markertexts {
-  min-height: 80px;
-  position: absolute;
-  text-align: left; }
-
-.mma-qtype-ddmarker-container .dropbackground {
-  margin: 0 auto; }
-
-.mma-qtype-ddmarker-container div.dragitems div.draghome, .mma-qtype-ddmarker-container div.dragitems div.dragitem,
-.mma-qtype-ddmarker-container div.draghome, .mma-qtype-ddmarker-container div.drag {
-  font: 13px/1.231 arial,helvetica,clean,sans-serif; }
-
-.mma-qtype-ddmarker-container div.dragitems span.markertext,
-.mma-qtype-ddmarker-container div.markertexts span.markertext {
-  margin: 0 5px;
-  z-index: 2;
-  background-color: #ffffff;
-  border: 2px solid #626262;
-  padding: 5px;
-  display: inline-block;
-  zoom: 1;
-  border-radius: 10px; }
-
-.mma-qtype-ddmarker-container div.markertexts span.markertext {
-  z-index: 3;
-  background-color: #feefd1;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #fbad1a;
-  position: absolute; }
-
-.mma-qtype-ddmarker-container span.wrongpart {
-  background-color: #feefd1;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #fbad1a;
-  padding: 5px;
-  border-radius: 10px;
-  filter: alpha(opacity=60);
-  opacity: 0.6;
-  margin: 5px;
-  display: inline-block; }
-
-.mma-qtype-ddmarker-container div.dragitems img.target {
-  position: absolute;
-  left: -7px;
-  /* This must be half the size of the target image, minus 0.5. */
-  top: -7px;
-  /* In other words, this works for a 15x15 cross-hair. */ }
-
-.mma-qtype-ddmarker-container div.dragitems div.draghome img.target {
-  display: none; }
-
 .mma-qtype-ddwtos-container .qtext {
   margin-bottom: 0.5em;
   display: block; }
@@ -14492,30 +14492,6 @@ ion-popover-view {
 .mma-qtype-ddwtos-container sub {
   bottom: -0.2em; }
 
-.mma-qtype-gapselect-container p {
-  margin: 0 0 .5em; }
-
-.mma-qtype-gapselect-container select {
-  height: 30px;
-  line-height: 30px;
-  display: inline-block;
-  border: 1px solid #9e9e9e;
-  padding: 4px 6px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  background: #f5f5f5; }
-
-.mma-qtype-match-container .item-select select,
-.mma-qtype-match-container .item-select .mm-select-fix {
-  padding: 0 36px 0 0;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column; }
-
 .mma-qtype-multianswer-container p {
   margin: 0 0 .5em; }
 
@@ -14548,3 +14524,27 @@ ion-popover-view {
 .mma-qtype-multianswer-container input[type="radio"], .mma-qtype-multianswer-container input[type="checkbox"] {
   margin-top: -4px;
   margin-right: 7px; }
+
+.mma-qtype-gapselect-container p {
+  margin: 0 0 .5em; }
+
+.mma-qtype-gapselect-container select {
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  border: 1px solid #9e9e9e;
+  padding: 4px 6px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: #f5f5f5; }
+
+.mma-qtype-match-container .item-select select,
+.mma-qtype-match-container .item-select .mm-select-fix {
+  padding: 0 36px 0 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; }
